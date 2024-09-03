@@ -5,10 +5,12 @@
   "description": "Hide specified emotes when you are playing duels in GeoGuessr.",
   "author": "Posio",
   "scripts": {
+    "check": "npm run lint && npx tsc",
     "dev": "plasmo dev",
     "build": "plasmo build",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "package": "plasmo package"
+    "package": "plasmo package",
+    "upgrade": "git pull && git fetch -p && npm ci && npm run check"
   },
   "dependencies": {
     "@plasmohq/storage": "^1.10.0",
