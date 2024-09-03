@@ -1,0 +1,26 @@
+{
+  "name": {
+    "message": "GeoGuessr Mute Emotes",
+    "description": "name"
+  },
+  "popup_title": {
+    "message": "Check to mute emotes",
+    "description": "popup/title"
+  },
+  "popup_options": {
+    "message": "Options",
+    "description": "popup/options"
+  },
+  "options_mute_emotes_title": {
+    "message": "Hide specified emotes when you are playing duels",
+    "description": "options/mute_emotes/title"
+  },
+  "options_mute_emotes_description": {
+    "message": "Check to hide each emote. It will hide the entire chat line containing the emote. Your message also will be hidden if it contains.",
+    "description": "options/mute_emotes/description"
+  },
+  "options_mute_emotes_tips_description": {
+    "message": "You can quickly change settings by pinning the extension.",
+    "description": "options/mute_emotes/tips/description"
+  }
+}

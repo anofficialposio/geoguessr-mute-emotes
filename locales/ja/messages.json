@@ -1,0 +1,22 @@
+{
+  "popup_title": {
+    "message": "チェックしてエモートをミュート",
+    "description": "popup/title"
+  },
+  "popup_options": {
+    "message": "設定",
+    "description": "popup/options"
+  },
+  "options_mute_emotes_title": {
+    "message": "デュエルで特定のエモートをミュート",
+    "description": "options/mute_emotes/title"
+  },
+  "options_mute_emotes_description": {
+    "message": "チェックを入れることで、デュエル中にそのエモートが含まれるメッセージを非表示にします。自分のメッセージも対象になります。",
+    "description": "options/mute_emotes/description"
+  },
+  "options_mute_emotes_tips_description": {
+    "message": "ピン留めしておくと、設定の変更を素早く行うことができます。",
+    "description": "options/mute_emotes/tips/description"
+  }
+}
