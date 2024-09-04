@@ -13,7 +13,7 @@
     "upgrade": "git pull && git fetch -p && npm ci && npm run check"
   },
   "dependencies": {
-    "@plasmohq/storage": "^1.10.0",
+    "@plasmohq/storage": "^1.12.0",
     "plasmo": "^0.87.1",
     "react": "^18.3.1",
     "react-dom": "^18.2.0"
