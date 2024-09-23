@@ -141,14 +141,6 @@ const observer = new MutationObserver((mutationsList, observer) => {
     return
   }
 
-  const containsChildList = mutationsList.some(
-    (mutation) => mutation.type === "childList"
-  )
-
-  if (!containsChildList) {
-    return
-  }
-
   hideEmote()
 })
 
